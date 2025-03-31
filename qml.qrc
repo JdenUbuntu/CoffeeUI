@@ -21,8 +21,6 @@
         <file>images/on-off-button.png</file>
         <file>images/loading (1).png</file>
         <file>videos/_coffee_pouring_v2.avi</file>
-        <file>videos/espresso_video.avi</file>
-        <file>videos/latte_video.avi</file>
         <file>videos/machine_cleansing (online-video-cutter.com).avi</file>
         <file>images/espresso.png</file>
         <file>images/latte.png</file>
@@ -33,5 +31,9 @@
         <file>videos/machine_cleansing.mp4</file>
         <file>images/bubbles.png</file>
         <file>SwipeView.qml</file>
+        <file>videos/espresso_video.mp4</file>
+        <file>videos/latte_video.mp4</file>
+        <file>videos/americano_video.mp4</file>
+        <file>videos/cappucino_video.mp4</file>
     </qresource>
 </RCC>

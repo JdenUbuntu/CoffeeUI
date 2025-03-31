@@ -170,7 +170,7 @@ Item {
                         zoomScale2.yScale = 1.0
                     }
                     onClicked:{
-                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "cappuccino" })
+                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "cappucino" })
                     }
                 }
             }
