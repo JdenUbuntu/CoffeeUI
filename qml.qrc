@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.qml</file>
+        <file>images/coffee spritesheet.png</file>
+        <file>BrewSelection.qml</file>
+        <file>Brew.qml</file>
+        <file>images/emptycup.png</file>
+        <file>images/icon-back.png</file>
+        <file>images/icon-go.png</file>
+        <file>images/empty_shot_glass-removebg-preview.png</file>
+        <file>images/coffee.png</file>
+        <file>images/no_coffee.png</file>
+        <file>Settings.qml</file>
+        <file>images/left.png</file>
+        <file>images/right.png</file>
+        <file>StackViewPage.qml</file>
+        <file>images/settings-button.png</file>
+        <file>Rinse.qml</file>
+        <file>Shutdown.qml</file>
+        <file>images/on-off-button.png</file>
+        <file>images/loading (1).png</file>
+        <file>videos/_coffee_pouring_v2.avi</file>
+        <file>videos/espresso_video.avi</file>
+        <file>videos/latte_video.avi</file>
+        <file>videos/machine_cleansing (online-video-cutter.com).avi</file>
+        <file>images/espresso.png</file>
+        <file>images/latte.png</file>
+        <file>HeightDetection.qml</file>
+        <file>images/americano.png</file>
+        <file>images/cappuccino.png</file>
+        <file>MainForm2.qml</file>
+        <file>videos/machine_cleansing.mp4</file>
+        <file>images/bubbles.png</file>
+        <file>SwipeView.qml</file>
+    </qresource>
+</RCC>
