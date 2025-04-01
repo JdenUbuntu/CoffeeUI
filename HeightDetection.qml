@@ -1,4 +1,5 @@
 import QtQuick 2.0
+import QtQuick.Controls 1.5
 
 Item {
     width: 640
@@ -11,16 +12,19 @@ Item {
 
 
     Timer {
+        id: heightTimer
         interval: 3000 // Simulate delay
         running: true
-        repeat: false
+        repeat: true
         onTriggered: {
             isLeftSlot = true // Simulating a cup detected in left slot
             cupHeight = 120 // Simulating cup height (in mm)
             cupDetected(isLeftSlot, isRightSlot, cupHeight)
             if (isLeftSlot === true) {  // Example condition
+                heightTimer.stop()
                 stackView.push("qrc:/MainForm.qml")
             } else {
+                heightTimer.stop()
                 stackView.push("qrc:/MainForm2.qml")
             }
 

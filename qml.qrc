@@ -22,10 +22,8 @@
         <file>images/loading (1).png</file>
         <file>videos/_coffee_pouring_v2.avi</file>
         <file>videos/machine_cleansing (online-video-cutter.com).avi</file>
-        <file>images/espresso.png</file>
         <file>images/latte.png</file>
         <file>HeightDetection.qml</file>
-        <file>images/americano.png</file>
         <file>images/cappuccino.png</file>
         <file>MainForm2.qml</file>
         <file>videos/machine_cleansing.mp4</file>
@@ -34,6 +32,11 @@
         <file>videos/espresso_video.mp4</file>
         <file>videos/latte_video.mp4</file>
         <file>videos/americano_video.mp4</file>
+        <file>images/americano.png</file>
+        <file>images/espresso.png</file>
         <file>videos/cappucino_video.mp4</file>
+        <file>images/milk.png</file>
+        <file>CleanMilk.qml</file>
+        <file>CleanAll.qml</file>
     </qresource>
 </RCC>

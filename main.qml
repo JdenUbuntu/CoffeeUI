@@ -10,13 +10,10 @@ ApplicationWindow {
     color: "black"
     property string selectedCoffeeType: ""
 
-    StackView {
-        id: stackView
+    Loader{
+        id:mainLoader
         anchors.fill: parent
-        initialItem: HeightDetection{}
+        source: "StackViewPage.qml"
     }
-
-
-
 
 }

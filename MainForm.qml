@@ -28,7 +28,7 @@ Item {
                 y: 133
                 height: 240
                 width: 240
-                source: "qrc:/images/americano.png"
+                source: "qrc:/images/espresso.png"
                 transform: Scale { id: zoomScale; xScale: 1; yScale: 1; origin.x: espresso.width / 2; origin.y: espresso.height / 2 }
 
                 MouseArea{
@@ -44,7 +44,7 @@ Item {
                         zoomScale.yScale = 1.0
                     }
                     onClicked:{
-                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "espresso" })
+                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "ESPRESSO" })
                     }
                 }
             }
@@ -70,7 +70,7 @@ Item {
                 y: 133
                 height: 240
                 width: 240
-                source: "qrc:/images/espresso.png"
+                source: "qrc:/images/americano.png"
                 transform: Scale { id: zoomScale3; xScale: 1; yScale: 1; origin.x: americano.width / 2; origin.y: americano.height / 2 }
 
                 MouseArea{
@@ -86,7 +86,7 @@ Item {
                         zoomScale3.yScale = 1.0
                     }
                     onClicked:{
-                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "americano" })
+                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "AMERICANO" })
                     }
                 }
             }
@@ -128,7 +128,7 @@ Item {
                         zoomScale1.yScale = 1.0
                     }
                     onClicked:{
-                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "latte" })
+                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "LATTE" })
                 }
               }
             }
@@ -170,7 +170,7 @@ Item {
                         zoomScale2.yScale = 1.0
                     }
                     onClicked:{
-                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "cappucino" })
+                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "CAPPUCCINO" })
                     }
                 }
             }

@@ -7,10 +7,23 @@ Item {
     height: 480
     signal brewSelectionComplete()
     signal brewSelectionCancel()
-    property string coffeeType: ""
+    property string coffeeType: "ESPRESSO"
     property int coffeeStrength: 3  // Strength level: 0 - 7
     signal strengthSelected(int level)
 
+    Text {
+        id: coffeeName
+        x: 207
+        y: 56
+        text: qsTr(coffeeType)
+        color: "white"
+        font.family: "Verdana"
+        font.pointSize: 25
+        anchors.horizontalCenter: parent
+        anchors.top: parent
+        horizontalAlignment: Text.AlignHCenter
+        anchors.topMargin: 30
+    }
 
     Image {
         id: emptyCup

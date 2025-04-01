@@ -42,7 +42,7 @@ Item {
                         zoomscale.yScale = 1.0
                     }
                     onClicked:{
-                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "espresso" })
+                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "ESPRESSO" })
                     }
                 }
             }
@@ -84,7 +84,7 @@ Item {
                         zoomscale3.yScale = 1.0
                     }
                     onClicked:{
-                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "americano" })
+                        stackView.push("qrc:/BrewSelection.qml", { coffeeType: "AMERICANO" })
                     }
                 }
             }

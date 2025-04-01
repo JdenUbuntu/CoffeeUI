@@ -51,6 +51,9 @@ Item {
                         else if (name === "Shut Down"){
                              stackView.push("qrc:/Shutdown.qml", { stackview: stackView })
                         }
+                        else if (name === "Clean Milk"){
+                             stackView.push("qrc:/CleanMilk.qml", { stackview: stackView })
+                        }
                     }
                 }
 
@@ -81,7 +84,7 @@ Item {
         id: settingsModel
         ListElement { name: "Rinse"; icon: "qrc:/images/bubbles.png" }
         ListElement { name: "Shut Down"; icon: "qrc:/images/on-off-button.png" }
-
+        ListElement { name: "Clean Milk"; icon: "qrc:/images/milk.png" }
     }
 
     // Back button

@@ -10,10 +10,10 @@ Item {
     // Display text
     Text {
         id: text1
-        x: 225
-        y: 40
+        x: 250
+        y: 106
         text: qsTr("Rinsing...")
-        font.pixelSize: 40
+        font.pixelSize: 30
         font.family: "Verdana"
         color: "white"
         anchors.top: parent
@@ -78,14 +78,14 @@ Item {
         width: 320
         height: 48
         text: qsTr("Shutting down...")
-        font.pixelSize: 40
+        font.pixelSize: 30
         horizontalAlignment: Text.AlignHCenter
-        anchors.horizontalCenterOffset: 1
+        anchors.horizontalCenterOffset: 0
         font.family: "Verdana"
         color: "white"
         anchors.top: parent.top
         anchors.horizontalCenter: parent.horizontalCenter
-        anchors.topMargin: 40
+        anchors.topMargin: 100
         visible: false  // Show only when shutdown starts
     }
 

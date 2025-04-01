@@ -8,26 +8,15 @@ Item {
 
     Text {
         id: text1
-        x: 225
-        y: 71
+        x: 249
+        y: 94
         text: qsTr("Rinsing...")
-        font.pixelSize: 40
+        font.pixelSize: 30
         horizontalAlignment: Text.AlignHCenter
         font.family: "Verdana"
         color: "white"
         anchors.top: parent
         anchors.topMargin: 40
-    }
-
-    Button{
-        id: finishRinse
-        x: 270
-        y: 406
-        text: "FINISH"
-        visible: false
-        onClicked: {
-           stackView.push("qrc:/MainForm.qml", { stackview: stackView })
-        }
     }
 
     Rectangle {
@@ -57,7 +46,7 @@ Item {
                 duration: 5000  // Duration of progress
                 loops: 1
                 onStopped: {
-                    finishRinse.visible = true
+                    stackView.push("qrc:/StackViewPage.qml",{stackView:stackView})
                 }
 
             }
